@@ -4,20 +4,27 @@
 
 Nombre completo: Benjamin Atenas
 
-Carrera: Analista Programador Computacional
-
+Carrera: Analista Programador Computacional.
 Sede: Online
 
 📘 Descripción general del sistema
-Proyecto que muestra la transformación de los datos de un archivo de texto a objetos.
+Descripción general del sistema Proyecto que muestra la transformación de los datos de un archivo de texto a objetos.
 
 🧱 Estructura general del proyecto (Ubicado en la carpeta scr/main/java)
 
 📁 src/
 
-├── app/         # Clase principal con el método main
+├── main/
 
-├── model/       # Clases de dominio (GestorDatos, Tour, tours.txt)
+├── java/
+
+  ├── data/         # Clase que gestiona los datos.
+
+  ├── model/        # Clases de dominio (Tour).
+
+  ├── ui/           # Clase main para ejecutar el programa.
+
+  ├── resources/    # Archivo con la información.
 
 
 
@@ -25,7 +32,7 @@ Proyecto que muestra la transformación de los datos de un archivo de texto a ob
 
 Clona el repositorio desde GitHub:
 
-git clone https://github.com/BenjaminAtenas1/S3-Proyecto-Llanquihue
+git clone https://github.com/BenjaminAtenas1/llanquihue-tour
 
 Abre el proyecto en IntelliJ IDEA.
 
@@ -35,8 +42,8 @@ Ejecuta el archivo Main.java desde el paquete app.
 
 Sigue las instrucciones en consola o en la interfaz gráfica (si corresponde).
 
-Repositorio GitHub: https://github.com/BenjaminAtenas1/S3-Proyecto-Llanquihue 
+Repositorio GitHub: https://github.com/BenjaminAtenas1/llanquihue-tour
 
-Fecha de entrega: 07-06-2026
+Fecha de entrega: 13-06-2026
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad Sumativa 1: Realizando validación, excepciones y relaciones entre clases
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad Formativa 3: Construyendo una lista de objetos desde archivo
